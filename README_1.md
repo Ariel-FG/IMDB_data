@@ -1,5 +1,5 @@
 # IMDB_data
-> data source: [IMDB datasets](https://developer.imdb.com/non-commercial-datasets/).
+> data source and table details: [IMDB datasets](https://developer.imdb.com/non-commercial-datasets/).
 ## Tables used:
 + name_basics
 + title basics
@@ -15,5 +15,7 @@
       - table 1: nconst, primaryName, birthYear, deathYear
       - table 2: nconst, KnownForTitles (unnested)
       - table 3: nconst, primaryProfession (unnested)
-+ 
++ data titles:
+    - isAdult column wrong values corrected only [0,1] accepted
+    - 
 ### 
