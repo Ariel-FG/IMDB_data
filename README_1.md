@@ -7,7 +7,7 @@
 + title_ratings
 
 ## Cleaning
-+ data names:
++ name_basics:
   - Null titles dropped
   - Date columns converted from object to numeric
   - Narrowing professions to [actor, actress, director]
@@ -16,8 +16,10 @@
       - table 1: nconst, primaryName, birthYear, deathYear
       - table 2: nconst, KnownForTitles (unnested)
       - table 3: nconst, primaryProfession (unnested)
-+ data titles:
++ title basics:
     - isAdult column values corrected only [0,1] accepted
     - primaryTitle column nan values dropped
-    - 
+    - year columns type changed and years over 2023 dropepd
+    - genres column unnested
++ title ratings: no need for processing
 
