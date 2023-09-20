@@ -18,5 +18,6 @@
       - table 3: nconst, primaryProfession (unnested)
 + data titles:
     - isAdult column values corrected only [0,1] accepted
+    - primaryTitle column nan values dropped
     - 
 
